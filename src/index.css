@@ -1,0 +1,56 @@
+
+
+
+.slider{
+    -webkit-appearence:none;
+    appearance: none;
+    height: 100%;
+    background: transparent;
+    height: 8px; /* height of the slider */
+    border-radius: 10px; /* rounded corners for the slider */
+    width: 100%; /* make the slider fill the container */
+  
+
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url('./assets/slide_icon.svg'); 
+    background-size: cover;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url('./assets/slide_icon.svg'); 
+    background-size: cover;
+  }
+  
+
+
+
+  .slider::-ms-thumb {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url('./assets/slide_icon.svg'); 
+    background-size: cover;
+  }
+
+
+  .bg-layer {
+    background-image: url("/src/assets/bg_layer.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; /* veya belirli bir genişlik */
+    height:100%; /* bir yükseklik de verelim */
+  }
+  
